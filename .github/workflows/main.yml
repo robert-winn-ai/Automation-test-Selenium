@@ -19,6 +19,6 @@ jobs:
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas webdriver_manager selenium
       - name: install webdriver-manager
-        run: pip install webdriver-manager
+        run:  python3 -m pip install webdriver-manager
       - name: Run the scraping script
         run: python3 scraper.py
