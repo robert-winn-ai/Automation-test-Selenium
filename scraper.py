@@ -21,7 +21,7 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 driver.get('https://storage.googleapis.com/qa__test/Elements/index.html')
-SearchResults = driver.find_element_by_xpath("/html/body/div[1]/header/h1/a/span")
+SearchResults = driver.find_element("/html/body/div[1]/header/h1/a/span")
 #driver.get('http://nytimes.com')
 print(SearchResults.title)
 
