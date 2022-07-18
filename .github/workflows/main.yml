@@ -21,4 +21,4 @@ jobs:
       - name: install webdriver-manager
         run: pip install webdriver-manager
       - name: Run the scraping script
-        run: python scraper.py
+        run: python3 scraper.py
