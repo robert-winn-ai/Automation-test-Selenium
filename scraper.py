@@ -23,5 +23,5 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 #driver.get('https://storage.googleapis.com/qa__test/Elements/index.html')
 #SearchResults = driver.find_element("//*[@id="header"]/h1/a/span")
 driver.get('http://www.saucedemo.com')
-print(SearchResults.title)
+print(driver.title)
 
