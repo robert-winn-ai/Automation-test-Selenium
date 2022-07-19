@@ -38,4 +38,5 @@ print(driver.current_url)
 driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light")[0].click()
 elements = driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/button")
 print(elements.text)
-
+elementsbag = driver.find_element("xpath","/html/body/div/div/div/div[1]/div[1]/div[3]/a/span")
+print(elementsbag.text)
