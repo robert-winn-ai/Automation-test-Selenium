@@ -50,14 +50,8 @@ driver.find_element("xpath","/html/body/div/div/div/div[2]/div/form/div[2]/input
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/div/form/div[1]/div[4]/h3").text)
 driver.find_elements(By.ID, "last-name")[0].send_keys('postal-code')
 driver.find_element("xpath","/html/body/div/div/div/div[2]/div/form/div[2]/input").click()
-
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div[2]/div[7]").text)
-
 driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div[2]/div[8]/button[2]").click()
-
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/h2").text)
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/img").get_attribute("src"))
-driver.find_elements(By.ID, "react-burger-menu-btn")[0].click()
-driver.find_elements(By.ID, "logout_sidebar_link")[0].click()
 print(driver.current_url)
-
