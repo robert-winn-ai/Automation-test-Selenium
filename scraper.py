@@ -36,4 +36,5 @@ print(driver.current_url)
 driver.find_elements(By.ID, "back-to-products")[0].click()
 print(driver.current_url)
 driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light")[0].click()
-print(driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light").text)
+_titel_=driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light")[0]
+print(_titel_.text)
