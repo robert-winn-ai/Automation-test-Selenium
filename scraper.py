@@ -40,3 +40,5 @@ elements = driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div/di
 print(elements.text)
 elementsbag = driver.find_element("xpath","/html/body/div/div/div/div[1]/div[1]/div[3]/a/span")
 print(elementsbag.text)
+elementsbag.click()
+print(driver.current_url)
