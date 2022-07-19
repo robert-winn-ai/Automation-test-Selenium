@@ -57,6 +57,7 @@ driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div[2]/div[8]/but
 
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/h2").text)
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/img").get_attribute("src"))
+driver.find_element("xpath",'//*[@id="react-burger-menu-btn"]').click()
 driver.find_element("xpath","/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/nav/a[3]").click()
 print(driver.current_url)
 
