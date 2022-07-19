@@ -36,5 +36,6 @@ print(driver.current_url)
 driver.find_elements(By.ID, "back-to-products")[0].click()
 print(driver.current_url)
 driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light")[0].click()
-_titel_=driver.find_elements(By.ID, "add-to-cart-sauce-labs-bike-light")
-print(_titel_.text)
+elements = driver.find_elements_by_xpath("/html/body/div/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/button")
+for elt in elements:
+    print(elt.text)
