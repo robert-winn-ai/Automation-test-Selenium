@@ -29,4 +29,5 @@ driver.find_elements(By.ID, "user-name")[0].send_keys('standard_user')
 driver.find_elements(By.ID, "password")[0].send_keys('secret_sauce')
 driver.find_elements(By.ID, "login-button")[0].click()
 print(driver.title)
+print(driver.current_url)
 
