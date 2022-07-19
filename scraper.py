@@ -27,5 +27,5 @@ driver.get('http://www.saucedemo.com')
 print(driver.title)
 driver.find_elements(By.ID, "user-name")[0].send_keys('standard_user')
 driver.find_elements(By.ID, "password")[0].send_keys('secret_sauce')
-driver.find_elements(By.ID, "password")[0].send_keys('login-button').click()
+driver.find_elements(By.ID, "login-button")[0].click()
 
