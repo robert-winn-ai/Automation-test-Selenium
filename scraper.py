@@ -54,5 +54,5 @@ print(driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div[2]/div[
 driver.find_element("xpath","/html/body/div/div/div/div[2]/div/div[2]/div[8]/button[2]").click()
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/h2").text)
 print(driver.find_element("xpath","/html/body/div/div/div/div[2]/img").get_attribute("src"))
-driver.find_elements(By.ID, "menu_button_container")[0].click()
+driver.find_element("xpath","/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div]").click()
 print(driver.current_url)
